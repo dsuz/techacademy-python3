@@ -8,7 +8,7 @@ for v in range(1, 10):
 
 # pattern 1
 # 九九のリストを作成する
-table = [[(x * y) for y in range(1, 10)] for x in range(1, 10)]  # Lesson9 - 7. 二次元リスト でのリスト内法表記による二次元リストの作成例を参照
+table = [[(x * y) for y in range(1, 10)] for x in range(1, 10)]  # Lesson9 - 7. 二次元リスト でのリスト内包表記による二次元リストの作成例を参照
 
 # 九九の表を表示する
 for i in range(len(table)):
