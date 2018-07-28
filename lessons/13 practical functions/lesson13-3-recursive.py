@@ -1,4 +1,4 @@
-import numbers
+from lessons import numbers
 
 while True:
     n = int(input('何番目の数値を求めますか？：'))

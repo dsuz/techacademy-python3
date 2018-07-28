@@ -1,4 +1,4 @@
-from baseball_team import Baseball_Team
+from lessons.baseball_team import Baseball_Team
 
 team_list = [
     Baseball_Team('Carp', 88, 51, 4),
