@@ -1,4 +1,5 @@
-from lessons.baseball_team import Baseball_Team
+# from baseball_team import Baseball_Team  # ディレクトリ構造に依存せず、同じディレクトリのモジュールを読み込むやり方
+from exercise.baseball_team import Baseball_Team  # ディレクトリ構造に依存するので要注意
 
 team_list = [
     Baseball_Team('Carp', 88, 51, 4),

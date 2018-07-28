@@ -4,7 +4,7 @@ char_dic = {chr(i + 97): 0 for i in range(26)} # 文字 (a-z) の辞書、97 は
 # 英単語の入力を受け付ける
 while True:
     buf = input('英単語を入力してください：')
-    if (len(buf) > 0):
+    if len(buf) > 0:
         word_list.append(buf)
     else:
         # 何も入力されずに Enter を押されたらループを抜けて次の処理をする
