@@ -6,7 +6,6 @@ generate_password 関数の仕様は次の通りに作ってください。
 1. 引数 length をとる。length は「生成するパスワードの長さ」とする
 2. 戻り値は str で、生成したパスワードを返す
 """
-
 import string
 import random
 

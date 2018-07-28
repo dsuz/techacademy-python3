@@ -14,16 +14,3 @@ team_list = [
 print('team        win lose draw   rate')
 for team in team_list:
     team.show_team_result()
-
-# チーム名のアルファベット順に出力する
-print('team        win lose draw   rate')
-team_list.sort(key=lambda t: t.name)
-for team in team_list:
-    team.show_team_result()
-
-# 負け数が多い順に出力する
-print('team        win lose draw   rate')
-team_list.sort(key=lambda t: t.lose, reverse=True)
-for team in team_list:
-    team.show_team_result()
-
