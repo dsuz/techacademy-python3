@@ -35,7 +35,7 @@ def is_prime(n):
     odd = 3  # odd は奇数で 3, 5, 7, 9,... と大きくなる
     while odd**2 <= n:
         if n % odd == 0:  # 割り切れたらその時点で素数ではない
-            print(odd,  'can divide', n)
+            print(odd, 'can divide', n)
             return False
         odd = odd + 2
 
@@ -43,19 +43,18 @@ def is_prime(n):
     return True
 
 
-if __name__ == '__main__':
-    while True:
-        buf = input('input number for prime testing: ')
+while True:
+    buf = input('input number for prime testing: ')
 
-        if len(buf) == 0:  # 何も入力がなければプログラムを終了する
-            print('exit.')
-            break
+    if not buf:  # 何も入力がなければプログラムを終了する
+        print('exit.')
+        break
 
-        try:
-            input_number = int(buf)
-            if is_prime(input_number):
-                print(buf + ' is a prime number.')
-            else:
-                print(buf + ' is NOT a prime number.')
-        except ValueError:
-            print('invalid value.')
+    try:
+        input_number = int(buf)
+        if is_prime(input_number):
+            print(buf + ' is a prime number.')
+        else:
+            print(buf + ' is NOT a prime number.')
+    except ValueError:
+        print('invalid value.')
