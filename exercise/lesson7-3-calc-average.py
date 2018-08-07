@@ -5,7 +5,7 @@ while True:
         break
     score_list.append(score)
 
-if len(score_list) > 0:
+if score_list:
     score_average = sum(score_list) / len(score_list)
     print(len(score_list), '人のテストの平均点は', score_average, '点です')
 else:
