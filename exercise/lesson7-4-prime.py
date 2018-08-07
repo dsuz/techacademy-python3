@@ -35,5 +35,3 @@ for n in range(1, 101):
             odd += 2  # odd を次の奇数にする
         else:
             print(n)
-
-
