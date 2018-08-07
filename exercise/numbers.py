@@ -1,12 +1,12 @@
 def fibonacci(n):
     """
     フィボナッチ数を返す
-    
+
     Parameters
     ----------
     n : int
         番
-    
+
     Returns
     -------
     fibonacci number: int

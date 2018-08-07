@@ -12,4 +12,3 @@ while True:
     except ValueError:
         print('不正な値です。終了します。')
         break
-
