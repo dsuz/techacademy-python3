@@ -12,3 +12,4 @@ if counter > 0:  # 一人も入力されていない時は処理しない
     print(counter, '人のテストの平均点は', score_average, '点です')
 else:
     print('集計できません')
+
